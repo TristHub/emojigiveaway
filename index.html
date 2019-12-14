@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Prompt</h2>
+<html>
+  <head>
+ <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LdfxccUAAAAAPq_O1p9IrESjLMiqcWkp2R52fGW"></div>
+      <br/>
+      <input type="submit" value="Submit">
+
+
+OR
+
+<button onclick="myFunction()">Verify With Name</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  var person = prompt("Please enter your name:", "");
+  if (person == null || person == "") {
+    txt = "You cancelled the sign in.";
+  } else {
+    txt = "Hello " + person + "! Welcome to The Giveaway Website!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+{
+
+</script>
+<input type="button" value="Go to the Discord Server" onclick="link()">
+
+<script>
+function link() {
+  window.location.assign("https://discord.gg/XBaa6b")
+}
+</script>
+
+
+</body>
+</html>
